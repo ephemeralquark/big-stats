@@ -23,9 +23,7 @@ exports.testInit = function(test) {
     "init requires a credentials.private_key"
   );
 
-  //console.log(bigStats);
-  //test.expect(1);
-  //test.ok(true, "this assertion should pass");
+
   test.done();
 };
 

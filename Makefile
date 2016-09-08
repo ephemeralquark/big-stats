@@ -1,7 +1,7 @@
 NPM_TOKEN ?= '00000000-0000-0000-0000-000000000000'
 CI_BUILD_NUMBER ?= $(USER)-snapshot
 VERSION ?= 0.2.$(CI_BUILD_NUMBER)
-BUILDER_TAG = "node:6.5.0"
+BUILDER_TAG = "node:6"
 CI_WORKDIR ?= $(shell pwd)
 
 package:
