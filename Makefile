@@ -1,6 +1,6 @@
 NPM_TOKEN ?= '00000000-0000-0000-0000-000000000000'
 CI_BUILD_NUMBER ?= $(USER)-snapshot
-VERSION ?= 0.1.$(CI_BUILD_NUMBER)
+VERSION ?= 0.2.$(CI_BUILD_NUMBER)
 
 package:
 	# https://docs.npmjs.com/cli/install
