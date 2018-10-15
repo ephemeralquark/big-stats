@@ -107,7 +107,7 @@ var Writer = function(options, logger) {
         log.log(err);
       } else {
         log.log("submitted job inserting " + rows.length + " rows")
-        log.log("With results: " + result)
+        log.log("With results: " + JSON.stringify(result))
       }
     });
     lastFlush = timestamp;
